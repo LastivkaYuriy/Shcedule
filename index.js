@@ -3,7 +3,10 @@ const TelegramBot = require('node-telegram-bot-api');
 const schedule = require('./Schedule.json');
 
 const token = '6536164660:AAF_X3XoLKbCuRA24ifpy27ZK6J7JwMCzUY';
+
 const DashaID = "375031131";
+const YuraID = "5805524469";
+
 const bot = new TelegramBot(token, { polling: true });
 
 function getCurrentTime() {
